@@ -16,6 +16,12 @@
           transform: translate(-50%, -14%);
 }
 
+@media (max-width: 414px) {
+  .section h1 {
+    font-size: 40px;
+  }
+}
+
 .wraper {
   font-size: 33px;
   position: absolute;
@@ -135,6 +141,27 @@
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .wraper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 414px) {
+  .learn-more {
+    left: 5%;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 414px) and (max-width: 375px) {
+  .wraper {
+    top: 28%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -30%);
+            transform: translate(-50%, -30%);
+  }
+}
+
 /* aboutme */
 .discription {
   margin-top: 8%;
@@ -167,6 +194,59 @@
   margin-left: 15%;
   margin-right: 15%;
   height: 7%;
+}
+
+#photo {
+  border-radius: 50%;
+  height: 30%;
+  top: 55%;
+  left: 55%;
+}
+
+@media (max-width: 1025px) {
+  .discription {
+    margin-top: 0;
+    margin-left: 10%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 414px) {
+  .discription {
+    position: absolute;
+    font-size: 23px;
+    top: 10%;
+    width: 90%;
+  }
+  #logo_container {
+    position: absolute;
+    bottom: 9%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 7%;
+  }
+  #photo {
+    border-radius: 50%;
+    height: 30%;
+    top: 78%;
+    left: 26%;
+  }
+  .logo {
+    width: 13%;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 414px) and (max-width: 375px) {
+  .discription {
+    font-size: 21px;
+  }
+  #photo {
+    border-radius: 50%;
+    height: 30%;
+    top: 78%;
+    left: 22%;
+  }
 }
 
 /* portfolio */
@@ -216,7 +296,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 52%;
+  max-width: 60%;
   margin-top: 2%;
   margin-left: 11%;
 }
@@ -285,6 +365,75 @@
   background-color: #131416;
 }
 
+@media (max-width: 1025px) {
+  .statbtn1 {
+    margin-left: 5%;
+  }
+  .images img {
+    margin-left: 1%;
+    max-width: 150px;
+    height: 10vh;
+  }
+  .pcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 85%;
+    height: 20vh;
+    margin-right: 50%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 768px) {
+  .all {
+    margin-top: 0;
+  }
+  .images img {
+    display: none;
+  }
+  .writing {
+    max-width: 90%;
+    font-size: large;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 768px) and (max-width: 414px) {
+  .all {
+    height: 80%;
+    width: 100%;
+    margin-left: 1%;
+  }
+  .pcontainer {
+    margin-top: 14%;
+    width: 100%;
+  }
+  .writing {
+    max-width: 80%;
+    font-size: large;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) {
+  .statbtn1 {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 0;
+  }
+  .statbtn1 h3 {
+    display: none;
+  }
+  .statbtn h3 {
+    display: none;
+  }
+  .pcontainer {
+    width: 100%;
+  }
+}
+
 /* other */
 .both {
   margin-top: 8%;
@@ -324,6 +473,59 @@ li {
   margin-bottom: 3%;
 }
 
+@media (max-width: 1025px) {
+  .both {
+    margin-top: 10%;
+  }
+  .container1 {
+    width: 35%;
+    height: 30em;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 768px) {
+  .container1 {
+    width: 45%;
+  }
+  li {
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 768px) and (max-width: 414px) {
+  li {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-bottom: 1%;
+  }
+  .both {
+    margin-left: 2%;
+    margin-top: 20%;
+    display: block;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container1 {
+    margin-top: 2%;
+    height: 40%;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) {
+  li {
+    font-size: 18px;
+  }
+  .list {
+    margin-top: 2%;
+  }
+}
+
+/* contact */
 #contacth {
   color: white;
 }
@@ -350,7 +552,7 @@ li {
 }
 
 .sec {
-  margin-top: 5vh;
+  margin-top: 40%;
 }
 
 .container {
@@ -413,5 +615,22 @@ input[type=submit]:hover {
 /* Align items to center of the 'div' with the class 'center' */
 .center {
   text-align: center;
+}
+
+@media (max-width: 1025px) {
+  .sec {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 1025px) and (max-width: 414px) {
+  .container {
+    display: none;
+  }
+  .contact {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

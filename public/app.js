@@ -34,7 +34,7 @@ new fullpage("#fullpage",{
         if (destination.index===2){
            const projects=document.querySelectorAll('.pcontainer');
            let i=0;
-           while(i<3) { tl.fromTo(projects[i],0.4,{x:'0',opacity:0},{x:'100',opacity:1})
+           while(i<3) { tl.fromTo(projects[i],0.4,{x:'0',opacity:0},{x:'50',opacity:1})
            i=i+1;
         };
            
