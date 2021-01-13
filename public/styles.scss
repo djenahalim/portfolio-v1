@@ -49,7 +49,7 @@ $black: #282936;
 /* button */
   position: absolute;
   top:120%;
-  left:30%;
+  left:20%;
   display: inline-block;
   cursor: pointer;
   outline: none;
@@ -136,6 +136,9 @@ $black: #282936;
 @media (max-width:1024px){
   .wraper{
     margin-left: 0;
+  }
+  .learn-more{
+    left:30%;
   }
   @media (max-width:768px){
     .wraper{
@@ -257,9 +260,13 @@ margin-top: 4%;
                     }
                     @media (max-width:360px){
                       .discription{
-                        font-size: 18px;
+                        font-size: 15px;
                          
                        }
+                       .logo{
+                        width:10%;
+                        height: 3rem;
+                      }
                     }
                   
             }
@@ -444,6 +451,10 @@ margin-top: 4%;
         .writing{
           max-width: 80%;
           font-size: 14px;
+        }
+        .pcontainer{
+        
+          margin-top: 11%;
         }
 
       }
