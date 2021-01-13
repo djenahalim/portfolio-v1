@@ -18,6 +18,10 @@
 @media (max-width:414px){
   .section h1{
     font-size: 40px;}
+    @media (max-width:375px){
+      .section h1{
+        font-size: 30px;}
+    }
 }
 .wraper{
   margin-left: 10%;
@@ -145,7 +149,7 @@ $black: #282936;
       width: 80%;
       & h2{
         margin-left: 3%;
-        font-size: 40px;
+        font-size: 33px;
       }
     }
       @media (max-width:414px){
