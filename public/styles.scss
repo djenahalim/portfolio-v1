@@ -145,6 +145,14 @@ $black: #282936;
   .learn-more{
     left:30%;
   }
+  @media (max-width:1003px){
+    .wraper{
+   width: 85%;
+   margin-left: 5%;
+   & h2{
+     font-size: 50px;
+   }
+    }
   @media (max-width:768px){
     .wraper{
       width: 80%;
@@ -174,7 +182,7 @@ $black: #282936;
         }
         }
       }
-      
+    }
    
   
   }

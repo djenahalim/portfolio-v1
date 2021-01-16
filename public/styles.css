@@ -158,7 +158,17 @@
   }
 }
 
-@media (max-width: 1024px) and (max-width: 768px) {
+@media (max-width: 1024px) and (max-width: 1003px) {
+  .wraper {
+    width: 85%;
+    margin-left: 5%;
+  }
+  .wraper h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1024px) and (max-width: 1003px) and (max-width: 768px) {
   .wraper {
     width: 80%;
   }
@@ -168,13 +178,13 @@
   }
 }
 
-@media (max-width: 1024px) and (max-width: 768px) and (max-width: 414px) {
+@media (max-width: 1024px) and (max-width: 1003px) and (max-width: 768px) and (max-width: 414px) {
   .learn-more {
     left: 5%;
   }
 }
 
-@media (max-width: 1024px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) {
+@media (max-width: 1024px) and (max-width: 1003px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) {
   .wraper {
     top: 28%;
     left: 50%;
@@ -183,7 +193,7 @@
   }
 }
 
-@media (max-width: 1024px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) and (max-width: 360px) {
+@media (max-width: 1024px) and (max-width: 1003px) and (max-width: 768px) and (max-width: 414px) and (max-width: 375px) and (max-width: 360px) {
   .wraper {
     width: 80%;
   }
